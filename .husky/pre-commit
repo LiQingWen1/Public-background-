@@ -1,4 +1,8 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
+<<<<<<< HEAD
 
 npx eslint --ext .js,.vue src
+=======
+npx lint-staged
+>>>>>>> 2407ee4 (fix(git): 修改了双引号)
